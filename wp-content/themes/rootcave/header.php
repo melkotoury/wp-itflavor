@@ -36,7 +36,7 @@
 					</button>
 					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
 				</div>
-<!--If the menu (WP admin area is not set then the "menu_class" is applied to "container". In other words , it overwrites the "container_class". Ref: http://wordpress.org/support/topic/wp_nav_menu-menu-class-usage-bug?replies=4 -->
+<!--If the menu (WP admin area) is not set then the "menu_class" is applied to "container". In other words , it overwrites the "container_class". Ref: http://wordpress.org/support/topic/wp_nav_menu-menu-class-usage-bug?replies=4 -->
 <?php
 wp_nav_menu(array(
 	'theme_location' => 'primary',
