@@ -1286,6 +1286,11 @@ ul.nostyle i {
 	margin: 0 7.5px;
 }
 /* ==== Fix the top margin when logged in */
+@media screen and (max-width: 600px){
+	.logged-in .navbar-fixed-top{
+		top: 42px;
+	}
+}
 @media screen and (max-width: 782px){
 	.logged-in .navbar-fixed-top{
 		top: 46px;
