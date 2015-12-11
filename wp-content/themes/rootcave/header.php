@@ -17,7 +17,25 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<!-- core CSS -->
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/animate.min.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/owl.transitions.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/prettyPhoto.css" rel="stylesheet">
+
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/responsive.css" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/timeline.css" rel="stylesheet">
+
+
 <?php wp_head(); ?>
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/assets/rootcave/assets/images/ico/favicon.ico">
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -34,7 +52,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+					<a class="navbar-brand" href="index.html"><img src="<?php bloginfo("stylesheet_directory"); ?>/assets/images/logo.png" alt="logo"></a>
 				</div>
 <!--If the menu (WP admin area) is not set then the "menu_class" is applied to "container". In other words , it overwrites the "container_class". Ref: http://wordpress.org/support/topic/wp_nav_menu-menu-class-usage-bug?replies=4 -->
 <?php
