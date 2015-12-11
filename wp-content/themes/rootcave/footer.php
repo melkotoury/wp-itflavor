@@ -11,18 +11,21 @@
 
 ?>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'rootcave' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'rootcave' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'rootcave' ), 'rootcave', '<a href="http://rootcave.com" rel="designer">Mahmoud A. El Kotoury</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/owl.carousel.min.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/mousescroll.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/smoothscroll.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery.prettyPhoto.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery.isotope.min.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/jquery.inview.min.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/wow.min.js"></script>
+<script src="<?php bloginfo('template_directory');  ?>/assets/js/main.js"></script>
+
 
 </body>
 </html>
